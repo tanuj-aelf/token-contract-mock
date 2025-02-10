@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package aelf;
+
+option csharp_namespace = "AElf";
+
+// Address type.
+message Address {
+    bytes value = 1;
+}
+
+// Hash type.
+message Hash {
+    bytes value = 1;
+}
+
+// String value type.
+message StringValue {
+    string value = 1;
+}
+
+// Int32 value type.
+message Int32Value {
+    int32 value = 1;
+}
+
+// Int64 value type.
+message Int64Value {
+    int64 value = 1;
+}
+
+// Boolean value type.
+message BoolValue {
+    bool value = 1;
+}
+
+// Bytes value type.
+message BytesValue {
+    bytes value = 1;
+}
+
+// Empty type.
+message Empty {
+} 

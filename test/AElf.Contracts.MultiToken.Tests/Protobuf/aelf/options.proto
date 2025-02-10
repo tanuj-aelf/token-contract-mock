@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package aelf;
+
+import "google/protobuf/descriptor.proto";
+
+option csharp_namespace = "AElf";
+
+extend google.protobuf.MethodOptions {
+    bool is_view = 50001;
+}
+
+extend google.protobuf.ServiceOptions {
+    string csharp_state = 50002;
+} 

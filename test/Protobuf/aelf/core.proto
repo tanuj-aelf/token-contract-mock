@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package aelf;
+
+option csharp_namespace = "AElf";
+
+// Address type.
+message Address {
+    bytes value = 1;
+}
+
+// Hash type.
+message Hash {
+    bytes value = 1;
+}
+
+// MerklePath type.
+message MerklePath {
+    repeated MerklePathNode merkle_path_nodes = 1;
+}
+
+message MerklePathNode {
+    Hash hash = 1;
+    bool is_left_child_node = 2;
+} 
