@@ -1,7 +1,0 @@
-obj/Debug/net6.0/TokenContract.cs \
-obj/Debug/net6.0/TokenContractGrpc.cs: aelf/core.proto\
- /Users/apple/.nuget/packages/grpc.tools/2.46.6/build/native/include/google/protobuf/descriptor.proto\
- aelf/options.proto\
- /Users/apple/.nuget/packages/grpc.tools/2.46.6/build/native/include/google/protobuf/empty.proto\
- /Users/apple/.nuget/packages/grpc.tools/2.46.6/build/native/include/google/protobuf/wrappers.proto\
- ../token_contract.proto
